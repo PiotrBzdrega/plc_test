@@ -16,5 +16,6 @@ BEGIN
 	//was is das
 	#c := #a + #b;
 	#d := #b - #c;
+	//das is sehr wichtig
 END_FUNCTION
 
