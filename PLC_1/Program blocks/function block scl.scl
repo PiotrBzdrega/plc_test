@@ -1,0 +1,20 @@
+﻿FUNCTION "function block scl" : Void
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      a : Int;
+      b : Int;
+   END_VAR
+
+   VAR_OUTPUT 
+      c : Int;
+      d : Int;
+   END_VAR
+
+
+BEGIN
+	//was is das
+	#c := #a + #b;
+	#d := #b - #c;
+END_FUNCTION
+
